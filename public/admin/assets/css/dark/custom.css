@@ -1,0 +1,19 @@
+body.dark button {
+    background: none;
+    border: none;
+    outline: none;
+}
+body.dark .notification_badge {
+    border-radius: 50%;
+    padding: 4px 8px;
+}
+
+body.dark .table-controls {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body.dark .table_btns .btn:not(:last-child) {
+    margin-right: 8px;
+}
