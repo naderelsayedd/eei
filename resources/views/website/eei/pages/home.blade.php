@@ -106,7 +106,7 @@
         </p>
 
         <div class="container section-boex-vsd">
-            <div class="row"> <!-- Add a row to wrap columns -->
+            <div class="row">
                 @if ($categoryProducts)
                     @foreach ($categoryProducts as $cat)
                         <div class="col-md-6 mb-4"> <!-- Use col-md-6 for two items per row -->
